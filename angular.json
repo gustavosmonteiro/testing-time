@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "testing-time"
+  "defaultProject": "testing-time",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }
