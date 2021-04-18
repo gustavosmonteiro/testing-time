@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
 
+## Run API Mock
+
+First, run `npm install -g json-server` to install `json-server`, a tool that I'm using to mock an API.
+
+Then, run `npm run server` for a dev API server. Navigate to `http://localhost:8000/` to check the data and endpoints.
+
+Take a look at `db.json` that's located in the root of the project to see the saved data and to add some more.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
