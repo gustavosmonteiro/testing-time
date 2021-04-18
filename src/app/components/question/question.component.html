@@ -1,0 +1,13 @@
+<form>
+    <div *ngFor="let question of questions">
+        <h2>{{question.question}}</h2>
+        <div *ngFor="let answer of question.answers; let i=index">
+            <input type="radio">{{answer}}
+        </div>
+    </div>
+
+    <div>
+        <button type="submit" >Answer</button>
+    </div>
+
+</form>

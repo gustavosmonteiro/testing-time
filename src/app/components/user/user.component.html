@@ -1,0 +1,12 @@
+<h1>User</h1>
+<form #userForm="ngForm" (ngSubmit)="onSubmit(Email.value)">
+    <div>
+        <label>Email</label>
+        <input type="email" name="Email" #Email ngModel required [pattern]="emailPattern">
+    </div>
+
+    <div>
+        <button type="submit" [disabled]="!userForm.valid">Next</button>
+    </div>
+
+</form>
